@@ -4,8 +4,11 @@ import unocss from "unocss/vite";
 import autoImport from "unplugin-auto-import/vite";
 import path from "path";
 
+const repName = "your-rep-name"; // Replace this with the actual value of repName
+
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: `/${repName}/`,
   plugins: [
     unocss(),
     react(),
