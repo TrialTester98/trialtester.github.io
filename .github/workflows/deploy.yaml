@@ -33,9 +33,8 @@ jobs:
       - name: Build site
         run: pnpm build
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to Github-Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
-          cname: trialtester98.github.io
+         branch: gh-pages # The branch the action should deploy to.
+         folder: out # The folder the action should deploy.
