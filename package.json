@@ -1,6 +1,7 @@
 {
   "name": "playground-macos",
-  "private": true,
+  "private": false,
+  "homepage": "https://trialtester98.github.io",
   "type": "module",
   "scripts": {
     "build": "vite build",
