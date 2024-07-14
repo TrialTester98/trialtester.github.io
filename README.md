@@ -11,7 +11,6 @@ Powered by [React](https://reactjs.org/) + [Zustand](https://zustand-demo.pmnd.r
 &nbsp;
 
 ## Usage
-
 Clone the repo and install dependencies:
 
 ```bash
